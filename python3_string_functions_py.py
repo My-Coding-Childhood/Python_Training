@@ -9,17 +9,22 @@ Original file is located at
 **STRING OPERATION.**
 """
 
+
+# Revision from python2 class:
+
 a = "Titanic"
 
 print(type(a))
 
 isinstance(a,str)
 
-# Length of string
+
+# How to check the length of string:
 
 length = len(a); print(length)
 
-# Converting uppercase/lowercase
+
+# Converting uppercase/lowercase string: 
 
 uc = a.upper(); print(uc)
 
@@ -29,6 +34,9 @@ title = lc.title()
 print(title)
 
 """**A sentence as a string**"""
+
+
+# Assigning variables, datatype check, counting, and finding positions in a variable assigned:
 
 sentence = "All that remains is what remains"
 
@@ -46,25 +54,35 @@ print (sentence.count('a', 10))
 
 print (sentence.find("remains"))
 
+# Find from reverse
 print (sentence.rfind('remains'))
 
+# Checking for a non-existent variable returns a -1 value:
 print (sentence.find("saw"))
 
+# Remove a portion of the variable from reverse
 print (sentence.rstrip("ains"))
 
 remains = sentence.rstrip('ains')
 print (remains)
 
+# Check length of variable
 dna = "AATTGGCCAA"
 print (len(dna))
 
+# Count the number of times an alphabet appears in a variable:
 print (dna.count("A"))
 
+# Find the position of first occurence:
 print (dna.find("A"))
 
+# Find position of first occurence from the reverse:
 print (dna.rfind('A'))
 
 print (dna)
+
+
+# Using the slice command to extract from assigned variables depending on our positions of interest:
 
 print ("dna[0] : ", dna[0])
 
@@ -74,6 +92,8 @@ print ("dna[0:8] : ", dna[0:8])
 
 print ("dna [2:4] :", dna [2:5])
 
+
+# CONCATENATION
 dna2 = "AAAA"
 dna3 = dna + dna2
 dna4 = dna2 + dna
