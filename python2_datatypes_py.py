@@ -11,6 +11,8 @@ The numeric data type itself can be an **integer, float or complex**
 anything within double quotes is a **string** - single alphabet, a combination of alphabets, a combination of alphabets and numbers, alphabets and special characters
 """
 
+
+# Assigning variables
 DNA = "ATTGCC"
 
 num1 = 123
@@ -20,6 +22,9 @@ num2 = 21.19
 num3 = -15
 
 num4 = 2 + 4j
+
+
+#How to check data types:
 
 print("The data type of DNA is ", type(DNA))
 
@@ -35,6 +40,9 @@ num4 = "2"
 
 print ("The data type of num4 is ", type(num4))
 
+
+# Notice the concatenation that follows:
+
 number1 = input("Input the first number ")
 
 number2 = input("Input the second number ")
@@ -48,6 +56,9 @@ print(sum1)
 **Can we still get the sum right?**
 """
 
+
+# Let us avoid concatenation by defining the nature of the data types we use:
+
 print (type(number1))
 
 sum = int(number1) + int(number2)
@@ -58,11 +69,17 @@ num6=int(input("Input a number "))
 
 print (type(num6))
 
+
+# How to check if our predicted datatype is the real datatype
+
 isinstance(num6, int)
 
 isinstance(num6, str)
 
 print(DNA)
+
+
+# Let's now understand the string function of slicing where we can pull out any character or list of characters from a string:
 
 print(DNA[0])
 
