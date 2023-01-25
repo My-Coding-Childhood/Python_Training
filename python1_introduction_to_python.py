@@ -11,6 +11,7 @@ Original file is located at
 
 print("Introduction to python")
 
+
 # Using python as a simple calculator
 
 # Add
@@ -28,7 +29,9 @@ print("Introduction to python")
 # BODMAS
 2*(3+7)/5
 
+
 # How to input
+
 name=input("Input your first name: ")
 
 # Print your input
