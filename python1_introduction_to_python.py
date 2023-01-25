@@ -13,16 +13,23 @@ print("Introduction to python")
 
 # Using python as a simple calculator
 
+# Add
 2+5
 
+# Multiply
 2*5*10
 
+# Exponential
 2**4
 
+# Modulo
 6%4
 
+# BODMAS
 2*(3+7)/5
 
+# How to input
 name=input("Input your first name: ")
 
+# Print your input
 print("My name is ", name)
